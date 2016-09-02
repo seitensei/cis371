@@ -1,0 +1,23 @@
+#header {
+  width: 62.5em;
+}
+
+#content {
+  width: 62.5em;
+  margin:auto;
+}
+
+.profile-text {
+  max-width: 50em;
+  float: left;
+  overflow: auto;
+}
+
+.profile-image {
+  width: 12.5em;
+  float: right;
+}
+
+.float-clear {
+  float: clear;
+}
