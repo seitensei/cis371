@@ -1,80 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>CIS371:HW01</title>
-    <link href="main.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <div id="header">
-      <h1>Tensei Nguyen</h1>
-    </div>
-    <div id="content">
-      <div class="profile">
-        <div class="profile-image">
-          <img src="img/profile.jpg" alt="me" width="150px">
-        </div>
-        <div class="profile-text">
-          <p>Thanh "tensei" Nguyen (阮天青) is a computer science student at Grand Valley State University who enjoys exploring new developments in web technology. I’m located in Holland, but regularly travel into Grand Rapids.</p>
-          <p></p>
-        </div>
-        <div class="float-clear">&nbsp;</div>
-
-        <div class="cells">
-          <div class="odd movies">
-            <ul>
-              <li>Tonari no Totoro</li>
-              <li>Mononoke Hime</li>
-              <li>Ghost in the Shell</li>
-              <li>Ghost in the Shell: Stand Alone Complex</li>
-            </ul>
-          </div>
-          <div class="even inspire">
-            <img src="img/exalted.png" alt="exalted leader" width="150px">
-          </div>
-          <div class="odd food">
-            <ol type="a">
-              <li>white rice</li>
-              <li>fried tofu</li>
-              <li>soy milk</li>
-            </ol>
-          </div>
-          <div class="float-clear">&nbsp;</div>
-          <div class="even links">
-            <p><a href="http://seitensei.github.com/" target="_blank">blog</a></p>
-            <p><a href="https://nodejs.org/" target="_blank">Node.js</a></p>
-            <p><a href="https://golang.org/" target="_blank">Golang</a></p>
-          </div>
-          <div class="odd classes">
-            <table>
-              <tr>
-                <th>Number</th>
-                <th>Title</th>
-                <th>Credits</th>
-              </tr>
-              <tr>
-                <td>CIS162</td>
-                <td>Computer Science I</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>CIS163</td>
-                <td>Computer Science II</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>CIS335</td>
-                <td>Data Mining</td>
-                <td>3</td>
-              </tr>
-            </table>
-          </div>
-          <div class="even latin">
-            <p class="best">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="footer"></div>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <title>CIS371 HW01</title>
+        <link href="main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="profile-bit">
+                <h1>tensei nguyen</h1>
+                <div class="profile-text left">
+                    <p>tensei nguyen is a computer science student at Grand Valley State University, moonlighting as a seller of books. he enjoys the web, particularly in the fields of backend development with ruby, nodejs, and golang, and is a 3D printing and photography enthusiast.
+                    </p>
+                </div>
+                <div class="profile-image right">
+                    <img src="assets/profile.jpg" alt="profile pic" width="200px">
+                </div>
+            </div><!-- /profile-bit -->
+            <div class="clear">&nbsp;</div>
+            <div class="cell-grid">
+                <div id="cell odd movies">
+                    <ul>
+                        <li>Ghost in the Shell</li>
+                        <li>Ghost in the Shell Standalone Complex</li>
+                        <li>Appleseed XIII</li> 
+                    </ul>
+                </div>
+                <div id="cell even person">
+                    <img src="assets/exalted.png"  alt="Exalted Leader" width="200px">
+                </div>
+                <div id="cell odd food">
+                    <ol type="a">
+                        <li>white rice</li>
+                        <li>fried tofu</li>
+                        <li>nikuman</li>
+                    </ol>
+                </div>
+                <div id="cell even links">
+                    <p><a href="http://seitensei.github.com">blog</a></p>
+                    <p><a href="https://nodejs.org">Node.js</a></p>
+                    <p><a href="https://golang.org">Golang</a></p>
+                </div>
+                <div id="cell odd courses">
+                    <table>
+                        <tr>
+                            <th>Number</th>
+                            <th>Title</th>
+                            <th>Credits</th>
+                        </tr>
+                        <tr>
+                            <td>CIS162</td>
+                            <td>Computer Science I</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>CIS163</td>
+                            <td>Computer Science II</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>CIS335</td>
+                            <td>Data Mining</td>
+                            <td>3</td>
+                        </tr>          
+                    </table>
+                </div>
+                <div id="cell even latin">
+                    <ul>
+                        <li class="best">"Lorem ipsum dolor sit amet..."</li>
+                        <li>"Cogito ergo sum"</li>
+                    </ul>
+                </div>
+            </div><!-- /cell-grid -->
+        </div><!-- /wrapper -->
+    </body>
 </html>
