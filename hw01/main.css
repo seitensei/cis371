@@ -1,3 +1,7 @@
+html {
+  margin: 0 0 0 0;
+}
+
 body {
     font-family: times;
     font-size: medium;
@@ -42,9 +46,12 @@ table {
     float: left;
     display:inline-block;
 }
-
+.profile-bit {
+  width: 720px;
+}
 .profile-text {
-    width: 480px;
+    width: 460px;
+    display: inline-block;
 }
 
 .profile-image {
@@ -60,5 +67,5 @@ table {
 }
 
 .clear {
-    float: clear;
+    clear: both;
 }
