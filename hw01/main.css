@@ -1,5 +1,6 @@
-html {
+html, body {
   margin: 0 0 0 0;
+  width: 100%;
 }
 
 body {
@@ -46,15 +47,15 @@ table {
     float: left;
     display:inline-block;
 }
-.profile-bit {
+.profilebit {
   width: 720px;
 }
-.profile-text {
+.profiletext {
     width: 460px;
     display: inline-block;
 }
 
-.profile-image {
+.profileimage {
     width: 240px;
 }
 
