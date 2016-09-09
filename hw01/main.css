@@ -1,23 +1,79 @@
-#header {
-  width: 62.5em;
+html, body {
+  margin: 0 0 0 0;
+  width: 100%;
 }
 
-#content {
-  width: 62.5em;
-  margin:auto;
+body {
+    font-family: times;
+    font-size: medium;
+    color: blue;
 }
 
-.profile-text {
-  max-width: 50em;
-  float: left;
-  overflow: auto;
+#wrapper {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.profile-image {
-  width: 12.5em;
-  float: right;
+th, td {
+    text-align: center;
 }
 
-.float-clear {
-  float: clear;
+ul {
+    color: black;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: orange;
+}
+
+table {
+    margin: 1px;
+}
+
+.movies {
+    font-family: sans-serif;
+}
+
+.best {
+    font-style: italic;
+}
+.cell-grid {
+    width: 720px;
+}    
+.cell-row {
+    width: 720px;
+    display: table-row;
+}
+.cell {
+    width: 240px;
+    display: table-cell;
+}
+.profilebit {
+  width: 720px;
+  padding-bottom: 200px;
+}
+.profiletext {
+    width: 460px;
+}
+
+.profileimage {
+    width: 240px;
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
 }
