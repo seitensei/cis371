@@ -37,26 +37,33 @@ table {
 
 .movies {
     font-family: sans-serif;
+}
 
 .best {
     font-style: italic;
 }
-    
+.cell-grid {
+    width: 720px;
+}    
+.cell-row {
+    width: 720px;
+    display: table-row;
+}
 .cell {
     width: 240px;
-    float: left;
-    display:inline-block;
+    display: table-cell;
 }
 .profilebit {
   width: 720px;
+  padding-bottom: 200px;
 }
 .profiletext {
     width: 460px;
-    display: inline-block;
 }
 
 .profileimage {
     width: 240px;
+    float: right;
 }
 
 .left {

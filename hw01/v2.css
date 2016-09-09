@@ -1,0 +1,45 @@
+body {
+    font-family: times;
+    font-size: medium;
+    color: blue;
+}
+
+.rightpic {
+  float: right;
+}
+
+.container {
+  display: flex;
+}
+
+.flex-element {
+  flex-grow: 1;
+}
+
+.movies {
+  font-family: sans-serif;
+}
+
+.best {
+  font-style: italic;
+}
+
+table {
+  margin: 1px;
+}
+
+th, td {
+    text-align: center;
+}
+
+ul {
+    color: black;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: orange;
+}
