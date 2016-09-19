@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CIS 371 Homework 2</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="preload.js"></script>
+  </head>
+  <body>
+    <div id="topbar">
+      CIS 371 Homework 2 - Odd Restaurant
+    </div>
+    <div id="menu-display">
+      <table>
+        <tr>
+          <td>
+            Welcome to House of Scripps 2000
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Patron Name: <span id="patronName"></span>
+          </td>
+          <td>
+            Patron Table: <span id="patronTable"></span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Our Finest Selection of Exotic Fantasy Meats (Click to Add)
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img/brain.png" alt="intellect devourer" onclick="patron_instance.appendItem(1)">
+            <img src="img/gob.png" alt="goblin" onclick="patron_instance.appendItem(2)">
+            <img src="img/rust.png" alt="rust monster" onclick="patron_instance.appendItem(3)">
+          </td>
+        </tr>
+        <tr>
+          <td>Orders</td>
+        </tr>
+        <tr>
+          <td>
+            <table id="bill">
+              <tr>
+                <td>QTY</td>
+                <td>Meat</td>
+                <td>Price</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="postload.js"></script>
+  </body>
+</html>
